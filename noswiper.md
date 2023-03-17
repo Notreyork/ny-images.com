@@ -5,11 +5,18 @@ permalink: "/noswiper"
 ---
 
 <style type="text/css">
+
+	* {
+	  box-sizing: border-box;
+	}
+
 	html,
 	body {
 		font-size: 12px;
 		line-height: 1.3;
 		width: 30rem;
+		margin: 0;
+		padding: 0;
 	}
 
 	a {
