@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 title: "NoSwiper"
 permalink: "/noswiper"
 ---
@@ -81,18 +81,18 @@ permalink: "/noswiper"
 
 	<div class="noswiper-featured-image-wrapper">
 
-		<img src="images/1.png">
+		<img src="/assets/images/noswiper/1.png">
 
 	</div>
 
 	<div class="noswiper-thumbnails-wrapper">
 
 		<ul>
-			<li class="noswiper-thumbnail"><img src="images/1.png"></li>
-			<li class="noswiper-thumbnail"><img src="images/2.png"></li>
-			<li class="noswiper-thumbnail"><img src="images/3.png"></li>
-			<li class="noswiper-thumbnail"><img src="images/4.png"></li>
-			<li class="noswiper-thumbnail"><img src="images/5.png"></li>
+			<li class="noswiper-thumbnail"><img src="/assets/images/noswiper/1.png"></li>
+			<li class="noswiper-thumbnail"><img src="/assets/images/noswiper/2.png"></li>
+			<li class="noswiper-thumbnail"><img src="/assets/images/noswiper/3.png"></li>
+			<li class="noswiper-thumbnail"><img src="/assets/images/noswiper/4.png"></li>
+			<li class="noswiper-thumbnail"><img src="/assets/images/noswiper/5.png"></li>
 		</ul>
 		
 	</div>
@@ -112,3 +112,7 @@ permalink: "/noswiper"
 <p>
 	Follow us on <a href="https://instagram.com/notreyork">Instagram</a>
 </p>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/assets/js/noswiper.js"></script>
