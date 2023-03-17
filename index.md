@@ -10,7 +10,7 @@ title: "ny images™"
 
 **Downloads**
 
-- [NoSwiper v1.0.0](https://github.com/Notreyork/NoSwiper)
+- [NoSwiper v1.0.0](/noswiper)
 
 **Interviews**
 
