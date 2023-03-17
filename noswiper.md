@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: nolayout
 title: "NoSwiper"
 permalink: "/noswiper"
 ---
@@ -65,6 +65,17 @@ permalink: "/noswiper"
 	.noswiper-thumbnail img {
 		display: block;
 		width: 100%;
+	}
+
+
+	@media only screen and (max-width: 30rem) {
+
+		html,
+		body {
+			width: 100%;
+
+		}
+
 	}
 
 
