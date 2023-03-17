@@ -19,6 +19,10 @@ permalink: "/noswiper"
 		padding: 0;
 	}
 
+	body {
+		padding: 1rem;
+	}
+
 	a {
 		color: blue;
 	}
