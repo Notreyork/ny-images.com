@@ -76,6 +76,9 @@ header {
 
 main {
   padding: 1rem;
+  ul {
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 40rem) {

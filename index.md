@@ -7,3 +7,7 @@ title: "ny images™"
 
 - [ny images™ #1 (Febuary 2023)](https://notreyork.github.io/ny_images-02-01-2023/)
 - [ny images™ #2 (March 2023)](https://notreyork.github.io/ny_images-03-01-2023/)
+
+**Downloads**
+
+- [90s Parental Advisory Logo .zip](https://notreyork.github.io/ny_images-02-01-2023/)
