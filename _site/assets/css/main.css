@@ -55,7 +55,7 @@ main ul {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 30rem) {
   * {
     font-size: 12px;
   }
