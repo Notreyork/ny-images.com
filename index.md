@@ -10,7 +10,7 @@ title: "ny images™"
 
 **Downloads**
 
-- [NoSwiper v1.0.0](/noswiper)
+- [NoSwiper.js v1.0.0](/noswiper)
 
 **Interviews**
 
