@@ -11,4 +11,4 @@ title: "ny images™"
 
 **Interviews**
 
-- Coming soon...
+- [Ben Dorado](https://notreyork.github.io/ny_images-04-01-2023/)
