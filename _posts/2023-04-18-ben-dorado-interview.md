@@ -8,11 +8,7 @@ permalink: /interview-with-ben-dorado
 
 	* {
 		font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-		font-size: 11px;
-		font-style: normal;
-		font-weight: 400;
-		padding: 0;
-		margin: 0;
+		line-height: 1.3;
 		box-sizing: border-box;
 	}
 
@@ -22,6 +18,8 @@ permalink: /interview-with-ben-dorado
 		font-family: "helvetica Neue", "Helvetica", Sans-Serif;
 		font-size: 12px;
 		width: 100%;
+		padding: 0.5rem;
+		margin: 0;
 
 	}
 
