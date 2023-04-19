@@ -7,6 +7,7 @@ permalink: /interview-with-ben-dorado
 <style>
 
 	* {
+		box-sizing: border-box;
 		line-height: 1.3;
 	}
 
