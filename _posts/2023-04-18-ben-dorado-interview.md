@@ -26,7 +26,7 @@ permalink: /interview-with-ben-dorado
 	@media only screen and (max-width: 35rem) {
 		body {
 			width: 100%;
-			padding: 0.5rem;
+			padding: 1rem;
 		}
 	}
 	
