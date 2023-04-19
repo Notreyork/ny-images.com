@@ -15,6 +15,7 @@ permalink: /interview-with-ben-dorado
 	body {
 		font-family: "helvetica Neue", "Helvetica", Sans-Serif;
 		font-size: 12px;
+		width: 100%;
 
 	}
 
