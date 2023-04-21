@@ -28,6 +28,10 @@ permalink: /interview-with-ben-dorado
 		padding: 0.5rem;
 	}
 
+	img {
+		width: 100%;
+	}
+
 	@media only screen and (max-width: 35rem) {
 		body {
 			width: 100%;
@@ -38,6 +42,8 @@ permalink: /interview-with-ben-dorado
 </style>
 
 # An Interview With Ben Dorado
+
+![image-title-here](/assets/images/bendorado/original_1b1f02b44c96922f986e996c350fcd0c.png)
 
 #### How did you get your start in design?
 
@@ -70,11 +76,13 @@ Frequent collaborations are with Oliver El Khatib for example, who I love to wor
 
 It's too hard for me to have a favorite, so I will choose a logo that has more meaning than aesthetics which is the circle of Zen.
 
+![image-title-here](/assets/images/bendorado/original_2a6dfb43b5e6239f8ee8733cfcf2056b.jpg)
 
 #### Do You have a favorite sports logo?
 
 I am originally from the city of Marseille in the south of France, so OM without hesitation. After that I love all the logos of Todd Radom, the king of sports in the USA.
 
+![image-title-here](/assets/images/bendorado/original_dc5bbf391d784519d65de6513f8fbf81.png)
 
 #### What is your dream project?
 
