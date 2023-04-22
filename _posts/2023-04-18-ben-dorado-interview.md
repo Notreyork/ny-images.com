@@ -18,14 +18,13 @@ permalink: /interview-with-ben-dorado
 		font-family: "helvetica Neue", "Helvetica", Sans-Serif;
 		font-size: 12px;
 		width: 100%;
-		padding: 0.5rem;
 		margin: 0;
 
 	}
 
 	body {
 		width: 35rem;
-		padding: 0.5rem;
+		padding: 1rem;
 	}
 
 	img {
