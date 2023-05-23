@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: "Helvetica Neue","Helvetica", sans-serif;
+$bodyFont: "Helvetica", sans-serif;
 
 $blue: #0027FF;
 
@@ -8,6 +8,7 @@ $blue: #0027FF;
   font-family: $bodyFont;
   font-size: 11px;
   font-weight: 600;
+  font-style: oblique;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
