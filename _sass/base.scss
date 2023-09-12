@@ -49,7 +49,6 @@ li {
 }
 
 header {
-
   padding: 1rem;
   margin-bottom: 4rem;
 
@@ -69,7 +68,12 @@ header {
     }
 
     a {
-      font-style: oblique;
+      
+
+    }
+
+    a:hover {
+      text-decoration: underline;
 
     }
   }

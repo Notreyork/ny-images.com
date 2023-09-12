@@ -51,8 +51,8 @@ header nav li:first-child {
   font-style: oblique;
   font-weight: bold;
 }
-header nav a {
-  font-style: oblique;
+header nav a:hover {
+  text-decoration: underline;
 }
 
 main {
