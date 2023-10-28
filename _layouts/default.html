@@ -18,10 +18,14 @@
 
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
+    <script src="{{ "/assets/css/mcsub.js" | relative_url }}"></script>
+
   </head>
   <body>
 
     {% include header.html %}
+
+    {% include newsletter.html %}
 
     <main>{{ content }}</main>
 
