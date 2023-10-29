@@ -5,11 +5,10 @@ $bodyFont: "Helvetica", sans-serif;
 $blue: #0027FF;
 
 * {
-  color: $blue;
+  color: #000;
   font-family: $bodyFont;
   font-size: 11px;
   font-weight: normal;
-  font-style: oblique;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -31,6 +30,7 @@ body {
 a {
   color: $blue;
   cursor: pointer;
+  font-style: oblique;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -38,6 +38,10 @@ a {
   &:visited {
     color: $blue;
   }
+}
+
+i {
+  color: $blue;
 }
 
 ul {
@@ -49,8 +53,8 @@ li {
 }
 
 header {
-  padding: 1rem;
-  margin-bottom: 4rem;
+  
+  padding: 0.5rem;
 
   nav {
     ul {
@@ -80,10 +84,8 @@ header {
 }
 
 main {
-  padding: 1rem;
-  ul {
-    margin-bottom: 1rem;
-  }
+  width: 30rem;
+  padding: 0rem;
 }
 
 p {
@@ -146,15 +148,14 @@ select {
 } 
 
 
-.newsletter-signup {
-  padding: 1rem;
-}
-
-
 @media only screen and (max-width: 30rem) {
 
   * {
     font-size: 12px;
+  }
+
+  main {
+    width: 100%;
   }
 
 

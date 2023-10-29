@@ -18,18 +18,21 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
 
-    <script src="/assets/css/mcsub.js"></script>
-
   </head>
   <body>
 
+    <main>
+
     <header>
+
+	<p>
+		<i>ny images™</i> is a collection of 50 curated images sent to to your inbox on the first of every month. Visit <a href="https://notreyork.com/" target="_blank">www.notreyork.com</a> to subscribe.
+	</p>
+
+	<p>Archive:</p>
+
 	<nav>
 		<ul>
-
-			<li>
-				www.ny-images.com
-			</li>
 
 			<li>
 				<a href="https://notreyork.github.io/ny_images-02-01-2023/">1</a>
@@ -56,129 +59,10 @@
 	</nav>
 </header>
 
-    <div class="newsletter-signup">
-
-<p>
-  Join our mailinglist for news and monthly images™
-</p>
-
-<div class="ny-newsletter-form">
-
-  <div class="ny-newsletter-form-overlay">
-  </div>
-
-  <div class="ny-newsletter-form-wrapper">
-
-    <div id="mcsub" class="subscribe">
-
-      <form action="https://Notreyork.us20.list-manage.com/subscribe/post" novalidate>
-
-        <div id="error-message"></div>
-
-        <div id="email-input">
-          <input type="email" name="EMAIL" placeholder="email@domain.com" autocomplete="off">
-        </div>
-
-        <button id="button" type="submit" name="subscribe">
-          subscribe
-        </button>
-
-        <div class="response-container">
-          <div id="response" class="response" style=""></div>
-        </div>
-
-      </form>
-    </div>
-
-  </div>
-
-</div>
-
-</div>
-
-<script src="/assets/js/mcsub.js"></script>
-
-<script type="text/javascript">
-
-$(document).ready(function(){
-
-  $( ".ny-newsletter-form-overlay" ).click(function() {
-    $(".ny-newsletter-form").fadeOut(200);
-  });
-
-  $( ".ny-footer-subscribe" ).click(function() {
-    $(".ny-newsletter-form").fadeIn(200);
-  });
-
-});
-
-new Mcsub("#mcsub", {
-  user: "9162ccc1a5682621557068a36", // Required
-  list: "e268e80fd4", // Required
-  onInit(){
-    // Example of element and response styling onInit
-    
-  },
-  onSubmit() {
-    // Example of button text changing when Submission starts
-    
-
-  },
-  onSuccess(){
-    console.log('Subscribe Success');
-    // Example of button styling on complete
-    this.button.innerHTML = "Subscribed";
-
-    if (document.getElementById('response').innerHTML.indexOf('Thank you for subscribing!') != -1) {
-
-      jQuery(function($) {
-     
-        $("input[type=email]").attr("placeholder", "You're subscribed!");
-
-        $("input[type=email]").val('');
-
-      }); 
-
-    }
-
-  },
-  onError(){
-    // Open Console
-    console.log('Subscribe Error'); // Example
-
-    if (document.getElementById('response').innerHTML.indexOf('Please enter a value') != -1) {
-
-      jQuery(function($) {
-     
-        $("input[type=email]").attr("placeholder", "Email is required");
-
-      }); 
-
-    } else if (document.getElementById('response').innerHTML.indexOf('An email address must contain a single @') != -1) {
-
-      jQuery(function($) {
-     
-        $("input[type=email]").attr("placeholder", "Enter valid email");
-
-        $("input[type=email]").val('');
-
-      });
-
-    } 
-
-  },
-  complete() {
-    
-    console.log('Complete'); // Example
-
-  }
-});
-
-</script>
+    <p>Still figuring it out…</p>
 
 
-    <main><p>Still figuring it out…</p>
-</main>
+    </main>
 
   </body>
 </html>

@@ -1,9 +1,8 @@
 * {
-  color: #0027FF;
+  color: #000;
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   font-weight: normal;
-  font-style: oblique;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -25,6 +24,7 @@ body {
 a {
   color: #0027FF;
   cursor: pointer;
+  font-style: oblique;
   text-decoration: none;
 }
 a:hover {
@@ -34,13 +34,16 @@ a:visited {
   color: #0027FF;
 }
 
+i {
+  color: #0027FF;
+}
+
 li {
   list-style: none;
 }
 
 header {
-  padding: 1rem;
-  margin-bottom: 4rem;
+  padding: 0.5rem;
 }
 header nav li {
   display: inline-block;
@@ -56,10 +59,8 @@ header nav a:hover {
 }
 
 main {
-  padding: 1rem;
-}
-main ul {
-  margin-bottom: 1rem;
+  width: 30rem;
+  padding: 0rem;
 }
 
 p {
@@ -104,13 +105,12 @@ select {
   cursor: pointer;
 }
 
-.newsletter-signup {
-  padding: 1rem;
-}
-
 @media only screen and (max-width: 30rem) {
   * {
     font-size: 12px;
+  }
+  main {
+    width: 100%;
   }
 }
 
