@@ -32,6 +32,7 @@ a {
   color: $blue;
   cursor: pointer;
   font-style: oblique;
+  text-decoration: none;
   &:hover {
     text-decoration: underline;
   }
