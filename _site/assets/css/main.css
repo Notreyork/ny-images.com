@@ -26,7 +26,7 @@ a {
   color: #0027FF;
   cursor: pointer;
   font-style: oblique;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: underline;
