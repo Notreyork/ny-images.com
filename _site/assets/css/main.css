@@ -34,6 +34,10 @@ a:visited {
   color: #0027FF;
 }
 
+i {
+  font-style: oblique;
+}
+
 li {
   list-style: none;
 }
