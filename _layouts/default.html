@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
   </head>
   <body>
 
@@ -28,6 +30,21 @@
     {{ content }}
 
     </main>
+
+    <script type="text/javascript" src="/assets/js/okhover.min.js"></script>
+
+    <script type="text/javascript">
+      $(function (){
+
+        $('.okhover').okhover({
+            fadeIn: true,
+            fadeOut: true,
+            fadeInDuration: 0,
+            fadeOutDuration: 0,
+        }); 
+
+      });
+    </script>
 
   </body>
 </html>
