@@ -35,7 +35,9 @@ a:visited {
 }
 
 i {
+  color: #0027FF;
   font-style: oblique;
+  font-weight: 600;
 }
 
 li {
