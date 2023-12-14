@@ -3,6 +3,7 @@ $bodyColor: #000000;
 $bodyFont: "Helvetica", sans-serif;
 
 $blue: #0027FF;
+$white: #0000;
 
 * {
   color: #000;
@@ -84,8 +85,8 @@ header {
     }
 
     a:hover {
-      text-decoration: underline;
-
+      background-color:  $blue;
+      color: $white;
     }
   }
 }
