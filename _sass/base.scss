@@ -9,7 +9,7 @@ $white: #ffff;
   color: #000;
   font-family: $bodyFont;
   font-size: 10px;
-  font-style: normal;
+  font-style: oblique;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -92,7 +92,7 @@ header {
 }
 
 main {
-  width: 30rem;
+  width: 50rem;
   padding: 0rem;
 }
 
@@ -156,7 +156,7 @@ select {
 } 
 
 
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 50rem) {
 
   * {
     font-size: 11px;
