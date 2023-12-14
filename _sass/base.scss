@@ -3,7 +3,7 @@ $bodyColor: #000000;
 $bodyFont: "Helvetica", sans-serif;
 
 $blue: #0027FF;
-$white: #0000;
+$white: #ffff;
 
 * {
   color: #000;
@@ -35,10 +35,11 @@ a {
   font-style: oblique;
   text-decoration: none;
   &:hover {
-    text-decoration: underline;
+    background-color: $blue;
+    color: $white;
   }
   &:visited {
-    color: $blue;
+    
   }
 }
 
@@ -57,7 +58,6 @@ li {
 
 h1 {
   font-size: 1rem;
-  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
@@ -72,7 +72,7 @@ header {
     li {
       display: inline-block;
       list-style: none;
-      margin-right: 1rem;
+      margin-left: 1rem;
       &:first-child {
         font-style: oblique;
         font-weight: bold;
@@ -85,7 +85,7 @@ header {
     }
 
     a:hover {
-      background-color:  $blue;
+      background-color: $blue;
       color: $white;
     }
   }

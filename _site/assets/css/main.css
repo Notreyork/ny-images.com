@@ -28,16 +28,11 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  background-color: #0027FF;
+  color: white;
 }
-a:visited {
-  color: #0027FF;
-}
-
 i {
-  color: #0027FF;
   font-style: oblique;
-  font-weight: 600;
 }
 
 li {
@@ -46,7 +41,6 @@ li {
 
 h1 {
   font-size: 1rem;
-  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
@@ -56,14 +50,15 @@ header {
 header nav li {
   display: inline-block;
   list-style: none;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 header nav li:first-child {
   font-style: oblique;
   font-weight: bold;
 }
 header nav a:hover {
-  text-decoration: underline;
+  background-color: #0027FF;
+  color: white;
 }
 
 main {
