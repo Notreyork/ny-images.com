@@ -132,7 +132,10 @@ select {
 }
 .nyimages div section figure a {
   display: block;
+  font-style: oblique;
   text-align: right;
+  width: fit-content;
+  margin-left: auto;
 }
 
 div[class^=nyimages__] {

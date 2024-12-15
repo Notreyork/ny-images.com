@@ -186,7 +186,10 @@ select {
 
         a {
           display: block;
+          font-style: oblique;
           text-align: right;
+          width: fit-content;
+          margin-left: auto;
         }
       }
     }
