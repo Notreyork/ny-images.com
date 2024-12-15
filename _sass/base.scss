@@ -77,9 +77,6 @@ header {
       display: inline-block;
       list-style: none;
       margin-left: 1rem;
-      &:first-child {
-        font-weight: bold;
-      }
     }
 
     a {
@@ -190,7 +187,7 @@ select {
   }
 }
 
-.hidden {
+div[class^="nyimages__"] {
   display: none;
 }
 

@@ -56,9 +56,6 @@ header nav li {
   list-style: none;
   margin-left: 1rem;
 }
-header nav li:first-child {
-  font-weight: bold;
-}
 header nav a:hover {
   background-color: #0027FF;
   color: white;
@@ -132,7 +129,7 @@ select {
   text-align: right;
 }
 
-.hidden {
+div[class^=nyimages__] {
   display: none;
 }
 

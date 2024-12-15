@@ -36,22 +36,5 @@
 
     </main>
 
-    <script type="text/javascript">
-
-      document.querySelectorAll('nav ul li').forEach(function(item) {
-        item.addEventListener('click', function() {
-      // Hide all divs
-          document.querySelectorAll('div[class^="nyimages__"]').forEach(function(div) {
-            div.classList.add('hidden');
-          });
-
-      // Show the corresponding div
-          var matchingDiv = document.querySelector('.' + item.classList[0]);
-          matchingDiv.classList.remove('hidden');
-        });
-      });
-
-    </script>
-
   </body>
 </html>
