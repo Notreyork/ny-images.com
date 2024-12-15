@@ -53,8 +53,14 @@ header {
 }
 header nav li {
   display: inline-block;
+  color: #0027FF;
   list-style: none;
   margin-left: 1rem;
+  cursor: pointer;
+}
+header nav .active {
+  background-color: #0027FF;
+  color: white;
 }
 header nav a:hover {
   background-color: #0027FF;
@@ -145,5 +151,3 @@ div[class^=nyimages__] {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

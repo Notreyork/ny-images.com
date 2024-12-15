@@ -91,7 +91,6 @@
 </header>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <script>
   $(document).ready(function() {
     $('nav ul li').on('click', function() {
@@ -101,9 +100,16 @@
       // Show the matching div
       var className = $(this).attr('class');
       $('.' + className).show();
+
+      // Remove underline from all li elements
+      $('nav ul li').removeClass('active');
+
+      // Add underline to the clicked li
+      $(this).addClass('active');
     });
   });
 </script>
+
 
     <div class="nyimages">
       <div class="nyimages__1">
