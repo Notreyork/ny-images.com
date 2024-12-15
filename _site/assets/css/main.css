@@ -2,7 +2,6 @@
   color: #000;
   font-family: "Helvetica", sans-serif;
   font-size: 10px;
-  font-style: oblique;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -30,7 +29,6 @@ html {
 a {
   color: #0027FF;
   cursor: pointer;
-  font-style: oblique;
   text-decoration: none;
 }
 a:hover {
@@ -59,7 +57,6 @@ header nav li {
   margin-left: 1rem;
 }
 header nav li:first-child {
-  font-style: oblique;
   font-weight: bold;
 }
 header nav a:hover {
@@ -68,7 +65,7 @@ header nav a:hover {
 }
 
 main {
-  width: 50rem;
+  width: 45rem;
   padding: 0rem;
 }
 
@@ -114,7 +111,32 @@ select {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 50rem) {
+.nyimages {
+  padding: 1rem;
+}
+.nyimages div {
+  width: 100%;
+}
+.nyimages div section figure {
+  margin-bottom: 1rem;
+}
+.nyimages div section figure span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.nyimages div section figure img {
+  width: 100%;
+}
+.nyimages div section figure a {
+  display: block;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 40rem) {
   * {
     font-size: 11px;
   }

@@ -27,23 +27,30 @@
 
     {% include header.html %}
 
-    {{ content }}
+    <div class="nyimages">
+      {% include 1.html %}
+      {% include 2.html %}
+    </div>
+
+    {% comment %} {{ content }} {% endcomment %}
 
     </main>
 
-    <script type="text/javascript" src="/assets/js/okhover.min.js"></script>
-
     <script type="text/javascript">
-      $(function (){
 
-        $('.okhover').okhover({
-            fadeIn: true,
-            fadeOut: true,
-            fadeInDuration: 0,
-            fadeOutDuration: 0,
-        }); 
+      document.querySelectorAll('nav ul li').forEach(function(item) {
+        item.addEventListener('click', function() {
+      // Hide all divs
+          document.querySelectorAll('div[class^="nyimages__"]').forEach(function(div) {
+            div.classList.add('hidden');
+          });
 
+      // Show the corresponding div
+          var matchingDiv = document.querySelector('.' + item.classList[0]);
+          matchingDiv.classList.remove('hidden');
+        });
       });
+
     </script>
 
   </body>

@@ -9,7 +9,6 @@ $white: #ffff;
   color: #000;
   font-family: $bodyFont;
   font-size: 10px;
-  font-style: oblique;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -38,7 +37,6 @@ html {
 a {
   color: $blue;
   cursor: pointer;
-  font-style: oblique;
   text-decoration: none;
   &:hover {
     background-color: $blue;
@@ -80,7 +78,6 @@ header {
       list-style: none;
       margin-left: 1rem;
       &:first-child {
-        font-style: oblique;
         font-weight: bold;
       }
     }
@@ -98,7 +95,7 @@ header {
 }
 
 main {
-  width: 50rem;
+  width: 45rem;
   padding: 0rem;
 }
 
@@ -161,8 +158,44 @@ select {
 
 } 
 
+.nyimages {
 
-@media only screen and (max-width: 50rem) {
+  padding: 1rem;
+
+  div {
+
+    width: 100%;
+
+    section {
+
+      figure{
+        margin-bottom: 1rem;
+
+        span {
+          display: block;
+          margin-bottom: 0.5rem;
+
+        }
+
+        img {
+          width: 100%;
+        }
+
+        a {
+          display: block;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+@media only screen and (max-width: 40rem) {
 
   * {
     font-size: 11px;

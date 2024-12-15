@@ -9,10 +9,23 @@
 <header>
 
 	<p>
-		<a href="/">ny images™</a> is a collection of 50 curated images sent to your inbox on the first of every month. Visit <a href="https://notreyork.com/" target="_blank">www.notreyork.com</a> to subscribe.
+		<a href="/">ny images™</a> is a collection of 30 curated images sent to your inbox on the first of every month. Visit <a href="https://notreyork.com/" target="_blank">www.notreyork.com</a> to subscribe.
 	</p>
 
 	<h1>Archive:</h1>
+
+	<nav>
+		<ul>
+			<li class="nyimages__1" data-target="nyimages__1">1</li>
+			<li class="nyimages__2" data-target="nyimages__2">2</li>
+			<li class="nyimages__3" data-target="nyimages__3">3</li>
+			<li class="nyimages__4" data-target="nyimages__4">4</li>
+			<li class="nyimages__5" data-target="nyimages__5">5</li>
+			<li class="nyimages__6" data-target="nyimages__6">6</li>
+		</ul>
+	</nav>
+
+	<!--
 
 	<nav>
 		<ul>
@@ -33,13 +46,11 @@
 				<a href="https://notreyork.github.io/ny_images-05-01-2023/" target="_blank">4</a>
 			</li>
 
-			<!--
 
 			<li>
 				<a href="https://notreyork.github.io/ny_images-06-01-2023/">5</a>
 			</li>
 
-			-->
 
 			<li class="okhover" data-okimage="https://notreyork.github.io/ny_images-09-01-2023/images/IMG_0972.jpg">
 				<a href="https://notreyork.github.io/ny_images-09-01-2023/" target="_blank">6</a>
@@ -48,4 +59,21 @@
 
 		</ul>
 	</nav>
+
+	-->
 </header>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('nav ul li').on('click', function() {
+      // Hide all divs
+      $('div[class^="nyimages__"]').hide();
+
+      // Show the matching div
+      var className = $(this).attr('class');
+      $('.' + className).show();
+    });
+  });
+</script>
