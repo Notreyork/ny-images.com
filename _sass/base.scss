@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: "Helvetica", sans-serif;
+$bodyFont: "Arial", sans-serif;
 
 $blue: #0027FF;
 $white: #ffff;
@@ -82,8 +82,7 @@ header {
     }
 
     .active {
-      background-color: $blue;
-      color: $white;
+      text-decoration: underline;
     }
 
     a {
@@ -164,13 +163,13 @@ select {
 
 .nyimages {
 
-  padding: 1rem;
-
   div {
 
     width: 100%;
 
     section {
+      padding: 1rem;
+      padding-bottom: 6rem;
 
       figure{
         margin-bottom: 1rem;
@@ -198,8 +197,26 @@ div[class^="nyimages__"] {
   display: none;
 }
 
+footer {
 
-@media only screen and (max-width: 40rem) {
+  display: none;
+  position: fixed;
+  width: 100%;
+  padding: 0.5rem;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+
+  img {
+
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+
+@media only screen and (max-width: 45rem) {
 
   * {
     font-size: 11px;
@@ -214,6 +231,12 @@ div[class^="nyimages__"] {
     width: 100%;
   }
 
-
-
 }
+
+
+@media only screen and (max-width: 350px) {
+  footer {
+    display: block;
+  }
+}
+
