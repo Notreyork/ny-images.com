@@ -55,16 +55,16 @@ header {
 header nav li {
   display: inline-block;
   color: #0027FF;
+  font-style: oblique;
   list-style: none;
   margin-left: 1rem;
   cursor: pointer;
 }
-header nav .active {
+header nav li:hover {
   background-color: #0027FF;
   color: white;
-  text-decoration: underline;
 }
-header nav a:hover {
+header nav .active {
   background-color: #0027FF;
   color: white;
 }
