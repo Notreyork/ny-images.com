@@ -29,6 +29,7 @@ html {
 a {
   color: #0027FF;
   cursor: pointer;
+  font-style: oblique;
   text-decoration: none;
 }
 a:hover {
@@ -59,6 +60,8 @@ header nav li {
   cursor: pointer;
 }
 header nav .active {
+  background-color: #0027FF;
+  color: white;
   text-decoration: underline;
 }
 header nav a:hover {
