@@ -27,6 +27,10 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+body {
+  padding: 2rem;
+}
+
 a {
   color: #0027FF;
   cursor: pointer;
@@ -51,14 +55,17 @@ h1 {
 }
 
 header {
-  padding: 1rem;
+  margin-bottom: 2rem;
+}
+header p {
+  margin-bottom: 2rem;
 }
 header nav li {
   display: inline-block;
-  color: #0027FF;
-  font-style: oblique;
+  color: lightgrey;
+  font-style: normal;
   list-style: none;
-  margin-left: 1rem;
+  margin-right: 1rem;
   cursor: pointer;
 }
 header nav li:hover {
@@ -66,8 +73,7 @@ header nav li:hover {
   color: white;
 }
 header nav .active {
-  background-color: #0027FF;
-  color: white;
+  color: #000;
 }
 
 main {
@@ -172,5 +178,3 @@ footer img {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

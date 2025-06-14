@@ -4,6 +4,7 @@ $bodyFont: "Arial", sans-serif;
 
 $blue: #0027FF;
 $white: #ffff;
+$black: #000;
 
 * {
   color: #000;
@@ -34,6 +35,10 @@ html {
   -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+}
+
+body {
+  padding: 2rem;
 }
 
 a {
@@ -69,7 +74,11 @@ h1 {
 }
 
 header {
-  padding: 1rem;
+  margin-bottom: 2rem;
+
+  p {
+    margin-bottom: 2rem;
+  }
 
   nav {
     ul {
@@ -78,10 +87,10 @@ header {
 
     li {
       display: inline-block;
-      color: $blue;
-      font-style: oblique;
+      color: lightgrey;
+      font-style: normal;
       list-style: none;
-      margin-left: 1rem;
+      margin-right: 1rem;
       cursor: pointer;
       &:hover {
         background-color: $blue;
@@ -90,8 +99,7 @@ header {
     }
 
     .active {
-      background-color: $blue;
-      color: $white;
+      color: $black;
     }
   }
 }
