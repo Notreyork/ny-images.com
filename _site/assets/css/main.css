@@ -55,6 +55,53 @@ header {
 header p {
   margin-bottom: 2rem;
 }
+header form input[type=email] {
+  display: block;
+  overflow-y: visible;
+  background-color: transparent;
+  color: #000;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0;
+  padding-left: 0.15rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  user-select: auto;
+  -webkit-touch-callout: auto;
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+}
+header form button {
+  display: block;
+  background: #fff;
+  color: #000;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1;
+  height: fit-content;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  border-radius: 3.5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.025);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
 header nav li {
   display: inline-block;
   color: lightgrey;
