@@ -44,11 +44,8 @@ body {
 a {
   color: $black;
   cursor: pointer;
-  font-style: oblique;
   text-decoration: none;
   &:hover {
-    background-color: $blue;
-    color: $white;
   }
   &:visited {
     
@@ -179,7 +176,7 @@ select {
       
 
       figure{
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 
         span {
           display: block;
