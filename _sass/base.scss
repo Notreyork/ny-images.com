@@ -78,9 +78,10 @@ header {
   }
 
   form {
+    
     display: block;
     margin-bottom: 4rem;
-    }
+
     input[type="email"] {
       display: block;
       overflow-y: visible;
@@ -107,7 +108,6 @@ header {
               -khtml-user-select: auto;
                  -moz-user-select: auto;
                     -ms-user-select: auto;
-
     }
 
     button {

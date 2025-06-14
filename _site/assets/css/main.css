@@ -55,6 +55,10 @@ header {
 header p {
   margin-bottom: 2rem;
 }
+header form {
+  display: block;
+  margin-bottom: 4rem;
+}
 header form input[type=email] {
   display: block;
   overflow-y: visible;
@@ -111,8 +115,7 @@ header nav li {
   cursor: pointer;
 }
 header nav li:hover {
-  background-color: #0027FF;
-  color: white;
+  color: #000;
 }
 header nav .active {
   color: #000;
