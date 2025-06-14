@@ -119,6 +119,9 @@ select {
   cursor: pointer;
 }
 
+.nyimages {
+  margin-bottom: 2rem;
+}
 .nyimages div {
   width: 100%;
 }
