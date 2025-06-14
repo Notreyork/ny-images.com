@@ -42,7 +42,7 @@ body {
 }
 
 a {
-  color: $blue;
+  color: $black;
   cursor: pointer;
   font-style: oblique;
   text-decoration: none;
@@ -74,7 +74,7 @@ h1 {
 }
 
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 
   p {
     margin-bottom: 2rem;
@@ -105,7 +105,8 @@ header {
 }
 
 main {
-  width: 45rem;
+  width: 100%;
+  max-width: 40rem;
   padding: 0rem;
 }
 
@@ -175,25 +176,25 @@ select {
     width: 100%;
 
     section {
-      padding: 1rem;
-      padding-bottom: 6rem;
+      
 
       figure{
         margin-bottom: 1rem;
 
         span {
           display: block;
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
 
         }
 
         img {
+          display: block;
+          margin-bottom: 1rem;
           width: 100%;
         }
 
         a {
           display: block;
-          font-style: oblique;
           text-align: right;
           width: fit-content;
           margin-left: auto;
