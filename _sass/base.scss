@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: "Arial", sans-serif;
+$bodyFont: Helvetica Neue, Helvetica, Arial, sans-serif;
 
 $blue: #0027FF;
 $white: #ffff;
@@ -24,7 +24,7 @@ body {
   
   color: $bodyColor;
   font-family: $bodyFont;
-  line-height: 1.3;
+  line-height: 1.5;
   height: 100%;
   width: 100%;
   -ms-overflow-style: none;
@@ -78,7 +78,7 @@ header {
   }
 
   form {
-    
+
     display: block;
     margin-bottom: 4rem;
 
