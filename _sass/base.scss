@@ -42,7 +42,7 @@ body {
 }
 
 a {
-  color: $black;
+  color: lightgrey;
   cursor: pointer;
   text-decoration: none;
   &:hover {
@@ -186,7 +186,7 @@ select {
 
         img {
           display: block;
-          margin-bottom: 1rem;
+          margin-bottom: 0.5rem;
           width: 100%;
         }
 

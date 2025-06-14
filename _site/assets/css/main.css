@@ -32,7 +32,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: lightgrey;
   cursor: pointer;
   text-decoration: none;
 }
@@ -131,7 +131,7 @@ select {
 }
 .nyimages div section figure img {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: 100%;
 }
 .nyimages div section figure a {
