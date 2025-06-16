@@ -190,6 +190,7 @@ select {
 }
 .nyimages div section figure a {
   display: block;
+  color: #0027FF;
   font-style: oblique;
   text-align: right;
   width: fit-content;
