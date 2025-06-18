@@ -75,6 +75,10 @@ header {
 
   p {
     margin-bottom: 2rem;
+    a {
+      color: $blue;
+      font-style: oblique;
+    }
   }
 
   form {

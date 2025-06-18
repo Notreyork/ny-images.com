@@ -55,6 +55,10 @@ header {
 header p {
   margin-bottom: 2rem;
 }
+header p a {
+  color: #0027FF;
+  font-style: oblique;
+}
 header form {
   display: block;
   margin-bottom: 4rem;
