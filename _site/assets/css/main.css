@@ -31,6 +31,10 @@ body {
   padding: 2rem;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   color: lightgrey;
   cursor: pointer;
