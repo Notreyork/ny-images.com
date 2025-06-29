@@ -25,6 +25,110 @@
 
     <main>
 
+    <style>
+
+  div {
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9999999999999999;
+  }
+  .lightbox.active {
+    display: flex;
+  }
+
+  .lightbox__img {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbox__img img {
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .lightbox__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  .lightbox__close button {
+
+  }
+</style>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox__close">
+    <button id="lightbox-close">close</button>
+  </div>
+  <div class="lightbox__img" id="lightbox-img-container">
+    <img src="" id="lightbox-img" alt="Lightbox Image">
+  </div>
+</div>
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = document.getElementById('lightbox-close');
+  const lightboxImgContainer = document.getElementById('lightbox-img-container');
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    lightboxImg.src = '';
+  }
+
+  closeBtn.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', closeLightbox);
+
+</script>
+
+<style type="text/css">
+  .fullscreen-overlay {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 999999999999;
+    padding: 2rem;
+  }
+
+  .fullscreen-overlay-img img {
+    max-width: 90vw;
+    max-height: 95vh;
+    object-fit: contain;
+  }
+
+  .fullscreen-overlay-x {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    top: 0;
+    right: 4rem;
+    cursor: pointer;
+    z-index: 9999999999999;
+
+  }
+
+  .fullscreen-overlay-x img {
+    display: block;
+    width: 1rem;
+    height: auto;
+  }
+
     <style type="text/css">
 	header h1,
 	header nav {
@@ -36,9 +140,8 @@
 <header>
 
 	<p>
-  	Welcome to the archive. <span style="font-style: oblique;">ny images™</span> is a collection of 30 curated images, selected by us and delivered to your inbox on the first of every month. Visit <a href="https://notreyork.com" target="_blank" rel="noopener noreferrer">www.notreyork.com</a> to subscribe.
-	</p>
-
+  	Welcome to the <span style="font-style: oblique;">ny images™</span> archive. <span style="font-style: oblique;">ny images™</span> is a collection of 30 curated images, selected by us and delivered to your inbox on the first of every month. Visit <a href="https://notreyork.com" target="_blank" rel="noopener noreferrer">www.notreyork.com</a> to subscribe.
+  </p>
 
 	<!--
 	
@@ -962,8 +1065,8 @@
 
 	<section>
 
-		Working on it...
-
+		Coming soon
+		
 		<!--
 		<figure>
 
@@ -1292,7 +1395,9 @@
 </div>
       <div class="nyimages__5">
 
-	<section>Working on it...</section>
+	<section>
+		Coming soon
+	</section>
 	
 </div>
       <div class="nyimages__6">
@@ -1589,6 +1694,17 @@
     
 
     </main>
+
+    <script>
+      document.querySelectorAll('figure img').forEach(img => {
+        img.addEventListener('click', () => {
+          const lightbox = document.getElementById('lightbox');
+          const lightboxImg = document.getElementById('lightbox-img');
+          lightboxImg.src = img.src;
+          lightbox.classList.add('active');
+        });
+      });
+    </script>
 
   </body>
 </html>
