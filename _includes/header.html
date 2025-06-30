@@ -12,15 +12,6 @@
   	Welcome to the <span style="font-style: oblique;">ny images™</span> archive. <span style="font-style: oblique;">ny images™</span> is a collection of 30 curated images, selected by us and delivered to your inbox on the first of every month. Visit <a href="https://notreyork.com" target="_blank" rel="noopener noreferrer">www.notreyork.com</a> to subscribe.
   </p>
 
-	<!--
-	
-	<form>
-		<input type="email" name="email" placeholder="example@email.com">
-		<button>subscribe</button>
-	</form>
-
-	-->
-
 	<nav>
 		<ul>
 			<li class="nyimages__1" data-target="nyimages__1">1</li>
@@ -34,16 +25,20 @@
 
 </header>
 
+
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
     $('nav ul li').on('click', function() {
       // Hide all divs
       $('div[class^="nyimages__"]').hide();
+      $('footer').hide();
 
       // Show the matching div
       var className = $(this).attr('class');
       $('.' + className).show();
+      $('footer').show();
 
       // Remove underline from all li elements
       $('nav ul li').removeClass('active');

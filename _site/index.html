@@ -143,15 +143,6 @@
   	Welcome to the <span style="font-style: oblique;">ny images™</span> archive. <span style="font-style: oblique;">ny images™</span> is a collection of 30 curated images, selected by us and delivered to your inbox on the first of every month. Visit <a href="https://notreyork.com" target="_blank" rel="noopener noreferrer">www.notreyork.com</a> to subscribe.
   </p>
 
-	<!--
-	
-	<form>
-		<input type="email" name="email" placeholder="example@email.com">
-		<button>subscribe</button>
-	</form>
-
-	-->
-
 	<nav>
 		<ul>
 			<li class="nyimages__1" data-target="nyimages__1">1</li>
@@ -165,16 +156,20 @@
 
 </header>
 
+
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
     $('nav ul li').on('click', function() {
       // Hide all divs
       $('div[class^="nyimages__"]').hide();
+      $('footer').hide();
 
       // Show the matching div
       var className = $(this).attr('class');
       $('.' + className).show();
+      $('footer').show();
 
       // Remove underline from all li elements
       $('nav ul li').removeClass('active');
@@ -1688,7 +1683,16 @@
     </div>
 
     <footer>
-	<img src="assets/images/nyimagestm.svg">
+	<nav>
+		<ul>
+			<li class="nyimages__1" data-target="nyimages__1">1</li>
+			<li class="nyimages__2" data-target="nyimages__2">2</li>
+			<li class="nyimages__3" data-target="nyimages__3">3</li>
+			<li class="nyimages__4" data-target="nyimages__4">4</li>
+			<li class="nyimages__5" data-target="nyimages__5">5</li>
+			<li class="nyimages__6" data-target="nyimages__6">6</li>
+		</ul>
+	</nav>
 </footer>
 
     

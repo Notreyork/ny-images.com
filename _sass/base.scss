@@ -170,7 +170,7 @@ header {
 
 main {
   width: 100%;
-  max-width: 40rem;
+  max-width: 45rem;
   padding: 0rem;
   padding-bottom: 2rem;
 }
@@ -283,20 +283,27 @@ div[class^="nyimages__"] {
 }
 
 footer {
-
   display: none;
-  position: fixed;
-  width: 100%;
-  padding: 0.5rem;
-  bottom: 0;
-  left: 0;
-  z-index: 99;
+  nav {
+    ul {
 
-  img {
+    }
 
-    width: 100%;
-    height: auto;
+    li {
+      display: inline-block;
+      color: lightgrey;
+      font-style: normal;
+      list-style: none;
+      margin-right: 1rem;
+      cursor: pointer;
+      &:hover {
+        color: $black;
+      }
+    }
 
+    .active {
+      color: $black;
+    }
   }
 }
 
